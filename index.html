@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="imagem/logo.jpg">
+    <link rel="stylesheet" href="styles/styles.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="video">
+            <iframe width="800" height="170" src="https://www.youtube.com/embed/jwV8SmYWHmQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h1>Gerador de Senhas</h1>
+
+    </header>
+    <main>
+        <div id='campo'>
+            <label for='pswLeght'>Informe o tamanho da senha:</label><br>
+            <input id='pswLeght' type='number' min='1'><br>
+            <label for='pswQtd'>Informe a quantidade de senhas:</label><br>
+            <input id='pswQtd' type='number' min='1'><br>
+        </div>
+
+        <div id='check'>
+            <label><input id='special' type='checkbox'> Incluir caracteres especiais</label>
+            <label><input id='number' type='checkbox'> Incluir números</label>
+            <label><input id='upperCase' type='checkbox'> Incluir letras maiúsculas</label>
+
+        </div>
+
+        <button onclick="pswGenerate()">Gerar senha</button>
+        <button onclick="clean()">Limpar senhas</button>
+
+        <div id='resultado'>
+            <label for="answer">Resultado:</label>
+            <textarea id='answer' rows='6' style='width:500px'>Senhas ...</textarea>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <p>
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script>
+            - Paulo Willyan - Desenvolvimento de Sistemas
+        </p>
+    </footer>
+</body>
+
+</html>

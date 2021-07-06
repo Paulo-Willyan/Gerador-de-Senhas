@@ -1,0 +1,70 @@
+html {
+
+    background-image: url("../imagem/fundo.png");
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    border: 0px;
+    background-size:cover;
+}
+
+body {
+      
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cyan;
+    text-align: center; 
+}
+
+main {
+
+   margin: 0px;
+   border: 0px;
+}
+
+footer {
+
+    color:red;
+    background-color:black;
+    font-size: 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#campo {
+
+    font-size: 20px;
+    color: whitesmoke; 
+}
+
+#check {
+
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#resultado {
+
+    font-size: 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+#answer {
+
+    font-size: 20px;
+}
+
+#video {
+
+    padding-top: 15px;
+}
+
